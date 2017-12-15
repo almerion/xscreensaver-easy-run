@@ -19,9 +19,13 @@ $ xscreensaverstart.sh
 `$ sudo emacs $HOME/.bashrc`
 
 Add these lines to your .bashrc file:
+
 `alias xsstart='xscreensaverstart.sh'`
+
 You can change xssart part as whatever you want without spaces.
+
 `$ exit`
+
 Then save the file and exit from the terminal and open the terminal again.
 You are ready to use your script with a shorter command.
 
