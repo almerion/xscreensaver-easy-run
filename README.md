@@ -14,19 +14,22 @@ $ xscreensaverstart.sh
 ```
 ## Tips and Tricks
 
-### Running script with shorter command
+### Running Script With Shorter Command
+
+Open the .bashrc file with write permission and your favorite text editor:
 
 `$ sudo emacs $HOME/.bashrc`
 
-Add these lines to your .bashrc file:
+Add this line to your .bashrc file:
 
 `alias xsstart='xscreensaverstart.sh'`
 
-You can change xssart part as whatever you want without spaces.
+You can change *xssart* part as whatever you want without spaces. <br />
+Then save the file and exit from the terminal: <br />
 
 `$ exit`
 
-Then save the file and exit from the terminal and open the terminal again.
+Open the terminal again. <br />
 You are ready to use your script with a shorter command.
 
 
